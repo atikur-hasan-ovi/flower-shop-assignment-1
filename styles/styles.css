@@ -9,15 +9,40 @@ body {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile-pic {
     width: 635px;
     height: 800px;
     flex-shrink: 0;
+}
+
+.banner-title {
+    width: 708px;
+    color: #272727;
+
+    font-size: 80px;
+
+    font-weight: 800;
+
+}
+
+}
+
+.banner-description {
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+
+    font-size: 20px;
+
+    font-weight: 400px;
+    line-height: 30px;
+   
+
 }
 
 .btn-primary {
